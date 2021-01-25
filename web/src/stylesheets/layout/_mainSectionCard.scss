@@ -1,0 +1,132 @@
+@import "../core/variables";
+
+.sectionOne {
+  width: 100%;
+  background-image: linear-gradient(#bfcdd0, #dde9ed);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media all and (min-width: 768px) {
+    height: auto;
+    border-radius: 6px;
+    justify-content: center;
+    margin-left: 10px;
+    align-items: center;
+  }
+}
+.sectionOneBtn {
+  width: 75px;
+  height: 30px;
+  margin: 38px 0 20px 45px;
+  border-radius: 15px;
+  border: solid 1px #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: normal;
+  font-stretch: normal;
+  color: #54585a;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  outline: 0;
+  transition-duration: 0.2s;
+  &:hover {
+    background-color: $colorBrand3;
+  }
+  &__logo {
+    line-height: 1.67;
+    transform: translate(0px, 0px);
+  }
+  @media all and (min-width: 768px) {
+    align-self: flex-start;
+  }
+}
+.sectionOneCard {
+  width: 240px;
+  // height: 329px;
+  background-color: #ffffff;
+  margin: 0 35px 40px 45px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  &__header {
+    border-left: 5px solid #438792;
+    &--name {
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.11;
+      letter-spacing: normal;
+      color: #114e4e;
+      margin-top: 21px;
+      margin-left: 20px;
+    }
+    &--job {
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      line-height: 1.25;
+      font-weight: normal;
+      letter-spacing: normal;
+      color: #54585a;
+      margin-top: 4px;
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+  }
+  &__nav {
+    list-style: none;
+    display: flex;
+    padding: 10px 0 0 20px;
+  }
+}
+.img-btn {
+  width: 11px;
+  height: 20px;
+  margin-top: 2px;
+}
+
+//PALETTE BLUE
+
+.paletteBlue {
+  & .js__name--Card {
+    color: $colorBrand1;
+  }
+  & .js-border {
+    border-color: $colorBrand6;
+  }
+  & .js-socialLogos {
+    border-color: $colorBrand5;
+    color: $colorBrand1;
+  }
+}
+
+//PALETTE RED
+.paletteRed {
+  & .js__name--Card {
+    color: $dried-blood;
+  }
+  & .js-border {
+    border-color: $rusty-red;
+  }
+  & .js-socialLogos {
+    border-color: $tomato;
+    color: $dried-blood;
+  }
+}
+
+//PALETTE GREY
+
+.paletteGrey {
+  & .js__name--Card {
+    color: $slate;
+  }
+  & .js-border {
+    border-color: $faded-orange;
+  }
+  & .js-socialLogos {
+    border-color: $light-grey-blue;
+    color: $slate;
+  }
+}
