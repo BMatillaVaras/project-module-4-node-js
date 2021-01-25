@@ -1,0 +1,25 @@
+{
+  "name": "project-module-4-node",
+  "version": "1.0.0",
+  "description": "Integrate Server on React Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BMatillaVaras/project-module-4-node-js.git"
+  },
+  "author": "Ana, Belén, Irene, Marina, Mora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BMatillaVaras/project-module-4-node-js/issues"
+  },
+  "homepage": "https://github.com/BMatillaVaras/project-module-4-node-js#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
