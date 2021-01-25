@@ -1,0 +1,21 @@
+{
+  "name": "project-module-4-node",
+  "version": "1.0.0",
+  "description": "Integrate NodeJS on React Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd web && npm run build && rm -rf ../server/public && mv build ../server/public && cd ../server && npm start",
+    "dev": "cd server && npm run dev & cd web && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BMatillaVaras/project-module-4-node-js.git"
+  },
+  "author": "Ana, Belén, Irene, Marina, Mora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BMatillaVaras/project-module-4-node-js/issues"
+  },
+  "homepage": "https://github.com/BMatillaVaras/project-module-4-node-js#readme"
+}
